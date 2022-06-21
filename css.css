@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'SBAggroB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SBAggroB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* main */
+*{
+    margin: 0 auto;
+    color: #B6C9C1;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: #404E4A;
+}
+
+.contain{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: center;
+}
+
+.class{
+    flex: 1;
+    border: 1px solid black;
+}
+
+.flex > img{
+    width: 100%;
+    object-fit: cover;
+}
+
+/* sub-page */
+
+.sub-contain{
+    height: 100vh;
+    width: 100%;
+}
+
+.on{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+
+.sub-img{
+    flex: 1;
+    height: 10%;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.sub-img > img{
+    width: 50%;
+}
+
+.sub-index{
+    flex: 2;
+    
+    margin-left: 10%;
+}
+
+.movie-name{
+    font-size: 250%;
+    margin-bottom: 5%;
+    font-family: "SBAggroB";
+}
+
+.movie-star{
+    margin-top: 10%;
+    font-size: 250%;
+    font-family: "SBAggroB";
+}
+
+.under{
+    display: flex;
+}
+
+.sub-title{
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    font-weight: bolder;
+}
+
+.sub-left{
+    flex: 1;
+    text-align: center;
+}
+
+.sub-right{
+    flex: 1;
+    text-align: center;
+}
+
+.flex3{
+    display: flex;
+    text-align: center;
+}
+
+.wordclud3{
+    flex: 1;
+    
+}
